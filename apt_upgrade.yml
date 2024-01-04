@@ -7,11 +7,5 @@
   - name: update repository index
     apt:
       update_cache: yes
-
-  - name: update repository index
-    apt:
       upgrade: yes
-
-  - name: update repository index
-    apt:
       autoremove: yes
